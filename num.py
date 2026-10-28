@@ -10,3 +10,9 @@ if num < 10:
     print("Please enter a number with at least 2 digits.")
 else:
     print(f"The factorial of {num} is {fact(num)}")
+
+
+    def add(a,b):
+        return a+b
+
+    print(add(5,3))
